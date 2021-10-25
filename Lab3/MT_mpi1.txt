@@ -1,1 +1,0 @@
-N           Process_Num     Cost Time(ms)       Speed_up        Effciency(in %)
