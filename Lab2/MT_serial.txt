@@ -1,0 +1,24 @@
+串行法实现矩阵转置（N=256)
+N			Thread_Num		Cost Time(ms)
+256			1			0
+串行法实现矩阵转置（N=512)
+N			Thread_Num		Cost Time(ms)
+512			1			1
+串行法实现矩阵转置（N=1024)
+N			Thread_Num		Cost Time(ms)
+1024			1			18
+串行法实现矩阵转置（N=2048)
+N			Thread_Num		Cost Time(ms)
+2048			1			104
+串行法实现矩阵转置（N=4096)
+N			Thread_Num		Cost Time(ms)
+4096			1			682
+串行法实现矩阵转置（N=8192)
+N			Thread_Num		Cost Time(ms)
+8192			1			2854
+串行法实现矩阵转置（N=16384)
+N			Thread_Num		Cost Time(ms)
+16384			1			13268
+串行法实现矩阵转置（N=32768)
+N			Thread_Num		Cost Time(ms)
+32768			1			58966

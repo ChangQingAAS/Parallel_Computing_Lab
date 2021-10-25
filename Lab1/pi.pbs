@@ -1,0 +1,13 @@
+#!/bin/bash
+#PBS -N pi
+#PBS -q qstudent
+#PBS -l nodes=1:ppn=1
+#PBS -j oe
+
+$PBS_FILE = /public/home/BG083/Monte_Carlo
+
+date +%s.%N # 输出程序开始时间
+icc -pthread -o Monte_Carlo pi.c
+./Monte_Carlo > Monte_Carlo.txt
+date +%s.%N #输出程序结束时间
+# 此空行不能忽略
